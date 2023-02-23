@@ -1,0 +1,35 @@
+env:
+  browser: true
+  es2021: true
+extends:
+  - airbnb
+  - airbnb-typescript
+  - airbnb/hooks
+  - plugin:@typescript-eslint/recommended
+  - plugin:@typescript-eslint/recommended-requiring-type-checking
+parser: 
+  "@typescript-eslint/parser"
+overrides: []
+parserOptions:
+  project: ./tsconfig.json
+  ecmaVersion: latest
+  sourceType: module
+rules: {  
+  "react/react-in-jsx-scope":"off",
+  "react/function-component-definition": [
+    2,
+    {
+      namedComponents: "arrow-function",
+      unnamedComponents: "arrow-function",
+    },
+  ],
+ "react/jsx-filename-extension": [
+    1,
+    {
+      "extensions": [
+        ".ts",
+        ".tsx"
+      ]
+    }
+  ],  
+}
