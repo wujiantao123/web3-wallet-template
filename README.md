@@ -2,6 +2,12 @@
 
 Web3 Wallet Template is a free and open source template built in React.js and based on the latest version of the Material UI framework. Built-in integration with web3modal wagmi an out-of-the-box connected wallet contract, It features over 100 UI elements, plugins, and example based built with React components.
 
+<img src="./example.png" width="200">
+
+<img src="./example2.png" width="200">
+
+<img src="./example3.png" width="200">
+
 ## Material
 
 This library is based on the latest version of the [MaterialUi](https://mui.com/core/) which brought many improvements.
@@ -66,4 +72,4 @@ npm run build
 
 At present, we officially aim to support the last two versions of the following browsers:
 
-<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64">
+<img src="./chrome.png" width="64" height="64"> <img src="./firefox.png" width="64" height="64"><img src="./brave.png" width="64" height="64">
