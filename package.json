@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "release": "yarn build;rsync -vruz -e 'ssh -p 40022' --exclude=.git --exclude=node_modules ./dist/ root@admin.kechuangfuwu.com:/opt/jh-html/wallet"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",
